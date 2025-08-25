@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D6D58E;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #005C53;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: white;
+    color: #004080;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+#titulo {
+    font-size: 24px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#infos, #sidebar, #exp, #cursos {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 45%;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.199);
+    backdrop-filter: blur(8px);
+    border-top: 1px rgba(88, 87, 86, 0.164);
+    border-left: 1px rgba(102, 98, 98, 0.205);
+}
+
+#sidebar {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.199);
+    backdrop-filter: blur(8px);
+    border-top: 1px rgba(88, 87, 86, 0.164);
+    border-left: 1px rgba(102, 98, 98, 0.205);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    box-shadow: .2px .2px rgba(236, 12, 12, 0.2);
+
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #004080;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #42acd6;
+}
